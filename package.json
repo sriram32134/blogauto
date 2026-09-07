@@ -1,0 +1,31 @@
+{
+  "name": "global-blog-hub-qa",
+  "version": "1.0.0",
+  "description": "Professional Playwright QA Automation Framework for Global Blog Hub",
+  "main": "index.js",
+  "scripts": {
+    "test": "playwright test",
+    "test:headed": "playwright test --headed",
+    "test:auth": "playwright test tests/auth/",
+    "test:home": "playwright test tests/home/",
+    "test:blog": "playwright test tests/blog/",
+    "test:admin": "playwright test tests/admin/",
+    "test:negative": "playwright test tests/negative/",
+    "test:e2e": "playwright test tests/e2e/",
+    "test:api": "playwright test tests/api/",
+    "report": "playwright show-report"
+  },
+  "keywords": [
+    "playwright",
+    "qa",
+    "automation",
+    "testing",
+    "e2e"
+  ],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.50.0",
+    "dotenv": "^16.4.7"
+  }
+}

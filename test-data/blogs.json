@@ -1,0 +1,11 @@
+{
+  "sampleBlog": {
+    "titlePrefix": "Playwright QA Test Blog",
+    "content": "This is an automated test blog post created using the Playwright framework.",
+    "category": "Development"
+  },
+  "updatedBlog": {
+    "titlePrefix": "Updated Playwright QA Blog",
+    "content": "This content has been successfully updated by Playwright automation."
+  }
+}
