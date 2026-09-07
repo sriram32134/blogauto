@@ -8,6 +8,10 @@ The goal is to show a realistic QA workflow:
 
 Test → Detect Failure → Investigate → Identify Whether It Is a Test Issue or Application Defect → Understand Its Impact on Other Workflows
 
+
+
+
+
 🎯 Project Objective
 
 The objective of this project is to automate important user workflows and validate whether the application behaves according to the expected requirements.
@@ -23,8 +27,6 @@ End-to-End Testing
 
 The project uses reusable Page Objects, fixtures, test data, and Playwright's built-in reporting and debugging capabilities.
 
-⭐ Key QA Concept Demonstrated
-This project is not designed simply to achieve a 100% test pass rate.
 
 The purpose of automation is to accurately validate application behavior.
 
@@ -43,6 +45,9 @@ Failure Investigation
 Defect Identification
 
 This project demonstrates both functional validation and defect detection.
+
+
+
 
 🐞 Defect Detection
 
@@ -94,6 +99,10 @@ Reveal the impact of defects on dependent E2E scenarios
 
 The purpose of the automation is not only to verify working functionality, but also to successfully identify defects when they occur.
 
+
+
+
+
 💥 Impact of the Defect on End-to-End Testing
 
 The Create Blog functionality is also part of the complete End-to-End workflow.
@@ -139,6 +148,9 @@ Logout
 This demonstrates how a defect in one functionality can affect a larger end-to-end workflow.
 
 A defect in a critical feature can have a cascading impact on dependent test scenarios.
+
+
+
 
 🔐 1. Authentication Testing
 
